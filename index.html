@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gulp - template</title>
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="images/favicons/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="images/favicons/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="images/favicons/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="images/favicons/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="images/favicons/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="images/favicons/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="images/favicons/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="images/favicons/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="images/favicons/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="images/favicons/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="images/favicons/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="images/favicons/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="images/favicons/favicon-16x16.png"
+        />
+        <link rel="manifest" href="images/favicons/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#ffffff" />
+        <link rel="stylesheet" href="libs/normalize.css" />
+        <link
+            rel="stylesheet"
+            href="libs/fontawesome-free-6.5.1-web/css/all.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="libs/swiper-slider11.0.5/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="css/index.min.css" />
+        <script
+            src="libs/plugins-scroll-to-section-master/scrollToSection.js"
+            defer
+        ></script>
+        <script
+            src="libs/swiper-slider11.0.5/swiper-bundle.min.js"
+            defer
+        ></script>
+        <script src="js/index.min.js" defer></script>
+    </head>
+    <body>
+        <div class="burger-btn">
+            <div class="burger-btn__line"></div>
+        </div>
+        <header class="header">
+            <div class="decor header__decor"></div>
+            <div class="container">
+                <nav class="header__nav">
+                    <div class="header__nav-part">
+                        <a href="#home" class="header__link">HOME</a>
+                        <a href="#about" class="header__link">ABOUT</a>
+                        <a href="#team" class="header__link">TEAM</a>
+                        <a href="#booking" class="header__link">BOOKING</a>
+                    </div>
+
+                    <div class="header__nav-part">
+                        <a href="#menu" class="header__link">MENU</a>
+                        <a href="#galerie" class="header__link">GALERIE</a>
+                        <a href="#events" class="header__link">EVENTS</a>
+                        <a href="#contact" class="header__link">CONTACT</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero" id="home">
+                <div class="container container--por">
+                    <div class="hero__padding-top"></div>
+                    <div class="header__decor-line-left"></div>
+                    <div class="header__decor-line-middle"></div>
+                    <div class="header__decor-line-right"></div>
+                    <div class="hero__wrapper">
+                        <div class="hero__shedule">
+                            <span
+                                >Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM -
+                                3AM</span
+                            >
+                        </div>
+
+                        <div class="hero__description-wrapper">
+                            <div class="hero__description">RESTAURANT</div>
+                            <h1 class="hero__title">hungry people</h1>
+                            <div class="hero__btns">
+                                <button class="btn hero__btn hero__btn--active">
+                                    BOOK TABLE
+                                </button>
+                                <button class="btn hero__btn">EXPLORE</button>
+                            </div>
+                        </div>
+                        <div class="hero__socials-wrap">
+                            <a
+                                href="https://facebook.com/"
+                                class="hero__socials-link"
+                                target="_blank"
+                            >
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a
+                                href="https://twitter.com/"
+                                class="hero__socials-link"
+                                target="_blank"
+                            >
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a
+                                href="https://instagram.com/"
+                                class="hero__socials-link"
+                                target="_blank"
+                            >
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="btn-further" id="btnFurther">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="container">
+                    <div class="section-wrapper">
+                        <div class="content">
+                            <h2 class="section-title">about us</h2>
+                            <h3 class="section-subtitle">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Duis at velit maximus, molestie
+                                est a, tempor magna.
+                            </h3>
+                            <p class="content__description">
+                                Integer ullamcorper neque eu purus euismod, ac
+                                faucibus mauris posuere. Morbi non ultrices
+                                ligula. Sed dictum, enim sed ullamcorper
+                                feugiat, dui odio vehicula eros, a sollicitudin
+                                lorem quam nec sem. Mauris tincidunt feugiat
+                                diam convallis pharetra. Nulla facilisis semper
+                                laoreet.
+                            </p>
+                        </div>
+                        <div class="section-image">
+                            <img
+                                src="images/about-img.jpg"
+                                alt="Mangal"
+                                class="section-image__img"
+                            />
+                            <div class="section-image__decor"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="team" id="team">
+                <div class="container container--decor">
+                    <div class="decor-line-left"></div>
+                    <div class="decor-line-middle"></div>
+                    <div class="decor-line-right"></div>
+                    <div class="section-theme">OUR TEAM</div>
+                    <div
+                        class="section-wrapper section-wrapper--reverse section-wrapper--big-pb"
+                    >
+                        <div class="content">
+                            <h2 class="section-title section-title--negative">
+                                MASTER CHEF
+                            </h2>
+                            <h3
+                                class="section-subtitle section-subtitle--negative"
+                            >
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Duis at velit maximus, molestie
+                                est a, tempor magna.
+                            </h3>
+                            <p
+                                class="content__description content__description--negative"
+                            >
+                                Integer ullamcorper neque eu purus euismod, ac
+                                faucibus mauris posuere. Morbi non ultrices
+                                ligula. Sed dictum, enim sed ullamcorper
+                                feugiat, dui odio vehicula eros, a sollicitudin
+                                lorem quam nec sem. Mauris tincidunt feugiat
+                                diam convallis pharetra. Nulla facilisis semper
+                                laoreet.
+                            </p>
+                        </div>
+                        <div class="section-image">
+                            <img
+                                src="images/masterchefe.jpg"
+                                alt="Masterchef"
+                                class="section-image__img"
+                            />
+                            <div class="section-image__decor"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="order" id="booking">
+                <div class="container">
+                    <div class="section-wrapper section-wrapper--order">
+                        <div class="content">
+                            <h2 class="section-title">book a table</h2>
+                            <form class="order-form">
+                                <input
+                                    class="order-form__input"
+                                    type="text"
+                                    placeholder="Name"
+                                    data-input-type="name"
+                                    name="name"
+                                />
+                                <input
+                                    class="order-form__input"
+                                    type="email"
+                                    placeholder="Email"
+                                    data-input-type="email"
+                                    name="email"
+                                />
+                                <input
+                                    class="order-form__input"
+                                    type="tel"
+                                    placeholder="Phone"
+                                    data-input-type="phone"
+                                    name="phone"
+                                />
+                                <input
+                                    class="order-form__input"
+                                    type="number"
+                                    placeholder="People"
+                                    data-input-type="people"
+                                    name="people"
+                                />
+                                <input
+                                    class="order-form__input"
+                                    type="text"
+                                    placeholder="Date (mm/dd)"
+                                    data-input-type="date"
+                                    name="date"
+                                />
+                                <input
+                                    class="order-form__input"
+                                    type="text"
+                                    placeholder="Time"
+                                    data-input-type="time"
+                                    name="time"
+                                />
+                                <button class="btn form-send form-send--order">
+                                    BOOK NOW
+                                </button>
+                            </form>
+                        </div>
+                        <div class="section-image">
+                            <img
+                                src="images/table.jpg"
+                                alt="Watch"
+                                class="section-image__img"
+                            />
+                            <div class="section-image__decor"></div>
+                        </div>
+                    </div>
+                    <p class="shedule">
+                        Mon - Fri:
+                        <span class="shedule__numbers">8PM - 10PM</span>, Sat -
+                        Sun: <span class="shedule__numbers">8PM - 3AM</span>,
+                        Phone:
+                        <a href="tel:+40729131637" class="shedule__link"
+                            >+40 729 131 637</a
+                        ><a href="tel:+40726458782" class="shedule__link"
+                            >/+40 726 458 782</a
+                        >
+                    </p>
+                </div>
+            </section>
+            <section class="specials" id="galerie">
+                <div class="container container--decor">
+                    <div class="decor-line-left"></div>
+                    <div class="decor-line-middle"></div>
+                    <div class="decor-line-right"></div>
+                    <div class="section-theme">specialties</div>
+                    <div class="swiper specials__swiper">
+                        <div class="swiper-wrapper">
+                            <div
+                                class="section-wrapper section-wrapper--reverse swiper-slide"
+                            >
+                                <div class="content">
+                                    <h2
+                                        class="section-title section-title--negative"
+                                    >
+                                        chocolate pancakes
+                                    </h2>
+                                    <h3
+                                        class="section-subtitle section-subtitle--negative"
+                                    >
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Duis at velit maximus,
+                                        molestie est a, tempor magna.
+                                    </h3>
+                                    <p
+                                        class="content__description content__description--negative"
+                                    >
+                                        Integer ullamcorper neque eu purus
+                                        euismod, ac faucibus mauris posuere.
+                                        Morbi non ultrices ligula. Sed dictum,
+                                        enim sed ullamcorper feugiat, dui odio
+                                        vehicula eros, a sollicitudin lorem quam
+                                        nec sem. Mauris tincidunt feugiat diam
+                                        convallis pharetra. Nulla facilisis
+                                        semper laoreet.
+                                    </p>
+                                </div>
+                                <div class="section-image">
+                                    <img
+                                        src="images/strawberry.jpg"
+                                        alt="strawberry"
+                                        class="section-image__img"
+                                    />
+                                    <div class="section-image__decor"></div>
+                                </div>
+                            </div>
+                            <div
+                                class="section-wrapper section-wrapper--reverse swiper-slide"
+                            >
+                                <div class="content">
+                                    <h2
+                                        class="section-title section-title--negative"
+                                    >
+                                        chocolate pancakes
+                                    </h2>
+                                    <h3
+                                        class="section-subtitle section-subtitle--negative"
+                                    >
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Duis at velit maximus,
+                                        molestie est a, tempor magna.
+                                    </h3>
+                                    <p
+                                        class="content__description content__description--negative"
+                                    >
+                                        Integer ullamcorper neque eu purus
+                                        euismod, ac faucibus mauris posuere.
+                                        Morbi non ultrices ligula. Sed dictum,
+                                        enim sed ullamcorper feugiat, dui odio
+                                        vehicula eros, a sollicitudin lorem quam
+                                        nec sem. Mauris tincidunt feugiat diam
+                                        convallis pharetra. Nulla facilisis
+                                        semper laoreet.
+                                    </p>
+                                </div>
+                                <div class="section-image">
+                                    <img
+                                        src="images/strawberry.jpg"
+                                        alt="strawberry"
+                                        class="section-image__img"
+                                    />
+                                    <div class="section-image__decor"></div>
+                                </div>
+                            </div>
+                            <div
+                                class="section-wrapper section-wrapper--reverse swiper-slide"
+                            >
+                                <div class="content">
+                                    <h2
+                                        class="section-title section-title--negative"
+                                    >
+                                        chocolate pancakes
+                                    </h2>
+                                    <h3
+                                        class="section-subtitle section-subtitle--negative"
+                                    >
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Duis at velit maximus,
+                                        molestie est a, tempor magna.
+                                    </h3>
+                                    <p
+                                        class="content__description content__description--negative"
+                                    >
+                                        Integer ullamcorper neque eu purus
+                                        euismod, ac faucibus mauris posuere.
+                                        Morbi non ultrices ligula. Sed dictum,
+                                        enim sed ullamcorper feugiat, dui odio
+                                        vehicula eros, a sollicitudin lorem quam
+                                        nec sem. Mauris tincidunt feugiat diam
+                                        convallis pharetra. Nulla facilisis
+                                        semper laoreet.
+                                    </p>
+                                </div>
+                                <div class="section-image">
+                                    <img
+                                        src="images/strawberry.jpg"
+                                        alt="strawberry"
+                                        class="section-image__img"
+                                    />
+                                    <div class="section-image__decor"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="menu" id="menu">
+                <div class="container">
+                    <h2 class="section-title">DELICIOUS MENU</h2>
+                    <h3 class="section-subtitle section-subtitle--menu">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Duis at velit maximus, molestie est a, tempor magna.
+                    </h3>
+                    <div class="menu__content">
+                        <ul class="menu__filter-list"></ul>
+                        <ul class="menu__list"></ul>
+                    </div>
+                </div>
+            </section>
+            <section class="events" id="events">
+                <div class="events__wrapper">
+                    <div class="container container--decor">
+                        <div class="decor-line-left"></div>
+                        <div class="decor-line-middle"></div>
+                        <div class="decor-line-right"></div>
+                        <div class="section-theme">PRIVATE EVENTS</div>
+
+                        <div class="content content--events">
+                            <div class="section-image section-image--events">
+                                <img
+                                    src="images/rings.jpg"
+                                    alt="rings"
+                                    class="section-image__img"
+                                />
+                                <div
+                                    class="section-image__decor section-image__decor--events"
+                                ></div>
+                                <div class="section-image__text">
+                                    <span>weddings </span>
+                                </div>
+                            </div>
+                            <div class="section-image">
+                                <img
+                                    src="images/drinks.jpg"
+                                    alt="drinks"
+                                    class="section-image__img"
+                                />
+                                <div class="section-image__decor"></div>
+                                <div
+                                    class="section-image__text section-image__text--reverse"
+                                >
+                                    <span> corporate pzrties </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="shedule shedule--negative">
+                            For private events please call:
+                            <a
+                                href="tel:+40729131637"
+                                class="shedule__link shedule__link--negative"
+                                >+40 729 131 637</a
+                            ><a
+                                href="tel:+40726458782"
+                                class="shedule__link shedule__link--negative"
+                                >/+40 726 458 782</a
+                            >
+                            or use the contact form.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper events__slider">
+                    <div class="swiper-wrapper">
+                        <div class="events__slider-item swiper-slide">
+                            <img
+                                src="images/events-slides/mazzo.jpg"
+                                alt="mazzo"
+                                class="events__slider-img"
+                            />
+                        </div>
+                        <div class="events__slider-item swiper-slide">
+                            <img
+                                src="images/events-slides/coals.jpg"
+                                alt="coals"
+                                class="events__slider-img"
+                            />
+                        </div>
+                        <div class="events__slider-item swiper-slide">
+                            <img
+                                src="images/events-slides/tables.jpg"
+                                alt="tables"
+                                class="events__slider-img"
+                            />
+                        </div>
+                        <div class="events__slider-item swiper-slide">
+                            <img
+                                src="images/events-slides/chairs.jpg"
+                                alt="chairs"
+                                class="events__slider-img"
+                            />
+                        </div>
+
+                        <div class="events__slider-item swiper-slide">
+                            <img
+                                src="images/events-slides/mazzo.jpg"
+                                alt="mazzo"
+                                class="events__slider-img"
+                            />
+                        </div>
+                        <div class="events__slider-item swiper-slide">
+                            <img
+                                src="images/events-slides/coals.jpg"
+                                alt="coals"
+                                class="events__slider-img"
+                            />
+                        </div>
+                        <div class="events__slider-item swiper-slide">
+                            <img
+                                src="images/events-slides/tables.jpg"
+                                alt="tables"
+                                class="events__slider-img"
+                            />
+                        </div>
+                        <div class="events__slider-item swiper-slide">
+                            <img
+                                src="images/events-slides/chairs.jpg"
+                                alt="chairs"
+                                class="events__slider-img"
+                            />
+                        </div>
+
+                        <div class="events__slider-item swiper-slide">
+                            <img
+                                src="images/events-slides/mazzo.jpg"
+                                alt="mazzo"
+                                class="events__slider-img"
+                            />
+                        </div>
+                        <div class="events__slider-item swiper-slide">
+                            <img
+                                src="images/events-slides/coals.jpg"
+                                alt="coals"
+                                class="events__slider-img"
+                            />
+                        </div>
+                        <div class="events__slider-item swiper-slide">
+                            <img
+                                src="images/events-slides/tables.jpg"
+                                alt="tables"
+                                class="events__slider-img"
+                            />
+                        </div>
+                        <div class="events__slider-item swiper-slide">
+                            <img
+                                src="images/events-slides/chairs.jpg"
+                                alt="chairs"
+                                class="events__slider-img"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <div class="container">
+                    <h2 class="section-title">CONTACT</h2>
+                    <h3 class="section-subtitle section-subtitle--contact">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Duis at velit maximus, molestie est a, tempor magna.
+                    </h3>
+                    <form class="contact-form">
+                        <div class="contact-form__inputs">
+                            <input
+                                type="text"
+                                class="contact-form__input"
+                                placeholder="Name"
+                                data-input-type="name"
+                                name="name"
+                            />
+                            <input
+                                type="text"
+                                class="contact-form__input"
+                                placeholder="Email"
+                                data-input-type="email"
+                                name="email"
+                            />
+                            <input
+                                type="text"
+                                class="contact-form__input"
+                                placeholder="Phone"
+                                data-input-type="phone"
+                                name="phone"
+                            />
+                            <textarea
+                                class="contact-form__text"
+                                placeholder="Message"
+                                data-input-type="text"
+                                name="text"
+                            ></textarea>
+                        </div>
+                        <div class="contact-form__container">
+                            <ul class="contact-form__list">
+                                <li class="contact-form__item">
+                                    <i
+                                        class="fa-solid fa-location-dot contact-form__item-icon"
+                                    ></i>
+                                    <span class="contact-form__info"
+                                        >5th London Boulevard, U.K.</span
+                                    >
+                                </li>
+                                <li class="contact-form__item">
+                                    <i
+                                        class="fa-solid fa-phone-flip contact-form__item-icon"
+                                    ></i>
+                                    <a
+                                        href="tel:+40729131637"
+                                        class="contact-form__info"
+                                        >+40 729 131 637/</a
+                                    >
+                                    <a
+                                        href="tel:+40726458782"
+                                        class="contact-form__info"
+                                        >+40 726 458 782</a
+                                    >
+                                </li>
+                                <li class="contact-form__item">
+                                    <i
+                                        class="fa-solid fa-envelope contact-form__item-icon"
+                                    ></i>
+                                    <a
+                                        href="mailto:office@mindblister.com"
+                                        class="contact-form__info"
+                                        >office@mindblister.com</a
+                                    >
+                                </li>
+                            </ul>
+                            <button class="btn form-send">SEND MESSAGE</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact__map">
+                    <iframe
+                        id="map_232024868"
+                        frameborder="0"
+                        width="100%"
+                        height="600px"
+                        sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"
+                    ></iframe>
+                    <script type="text/javascript">
+                        ;(function (e, t) {
+                            var r = document.getElementById(e)
+                            r.contentWindow.document.open(),
+                                r.contentWindow.document.write(atob(t)),
+                                r.contentWindow.document.close()
+                        })(
+                            'map_232024868',
+                            'PGJvZHk+PHN0eWxlPgogICAgICAgIGh0bWwsIGJvZHkgewogICAgICAgICAgICBtYXJnaW46IDA7CiAgICAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgfQogICAgICAgIGh0bWwsIGJvZHksICNtYXAgewogICAgICAgICAgICB3aWR0aDogMTAwJTsKICAgICAgICAgICAgaGVpZ2h0OiAxMDAlOwogICAgICAgIH0KICAgICAgICAuYnVsbGV0LW1hcmtlciB7CiAgICAgICAgICAgIHdpZHRoOiAyMHB4OwogICAgICAgICAgICBoZWlnaHQ6IDIwcHg7CiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7CiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMXB4IDNweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTsKICAgICAgICAgICAgYm9yZGVyOiA0cHggc29saWQgIzAyODFmMjsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlOwogICAgICAgIH0KICAgICAgICAucGVybWFuZW50LXRvb2x0aXAgewogICAgICAgICAgICBiYWNrZ3JvdW5kOiBub25lOwogICAgICAgICAgICBib3gtc2hhZG93OiBub25lOwogICAgICAgICAgICBib3JkZXI6IG5vbmU7CiAgICAgICAgICAgIHBhZGRpbmc6IDZweCAxMnB4OwogICAgICAgICAgICBjb2xvcjogIzI2MjYyNjsKICAgICAgICB9CiAgICAgICAgLnBlcm1hbmVudC10b29sdGlwOmJlZm9yZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IG5vbmU7CiAgICAgICAgfQogICAgICAgIC5kZy1wb3B1cF9oaWRkZW5fdHJ1ZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgICAgIH0KICAgICAgICAubGVhZmxldC1jb250YWluZXIgLmxlYWZsZXQtcG9wdXAgLmxlYWZsZXQtcG9wdXAtY2xvc2UtYnV0dG9uIHsKICAgICAgICAgICAgdG9wOiAwOwogICAgICAgICAgICByaWdodDogMDsKICAgICAgICAgICAgd2lkdGg6IDIwcHg7CiAgICAgICAgICAgIGhlaWdodDogMjBweDsKICAgICAgICAgICAgZm9udC1zaXplOiAyMHB4OwogICAgICAgICAgICBsaW5lLWhlaWdodDogMTsKICAgICAgICB9CiAgICA8L3N0eWxlPjxkaXYgaWQ9Im1hcCI+PC9kaXY+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cHM6Ly9tYXBzLmFwaS4yZ2lzLnJ1LzIuMC9sb2FkZXIuanM/cGtnPWZ1bGwmYW1wO3NraW49bGlnaHQiPjwvc2NyaXB0PjxzY3JpcHQ+KGZ1bmN0aW9uKGUpe3ZhciB0PUpTT04ucGFyc2UoZSkscj10Lm9yZGVyZWRHZW9tZXRyaWVzLG49dC5tYXBQb3NpdGlvbixhPXQuaXNXaGVlbFpvb21FbmFibGVkO2Z1bmN0aW9uIG8oZSl7cmV0dXJuIGRlY29kZVVSSUNvbXBvbmVudChhdG9iKGUpLnNwbGl0KCIiKS5tYXAoZnVuY3Rpb24oZSl7cmV0dXJuIiUiKygiMDAiK2UuY2hhckNvZGVBdCgwKS50b1N0cmluZygxNikpLnNsaWNlKC0yKX0pLmpvaW4oIiIpKX1ERy50aGVuKGZ1bmN0aW9uKCl7dmFyIGU9REcubWFwKCJtYXAiLHtjZW50ZXI6W24ubGF0LG4ubG9uXSx6b29tOm4uem9vbSxzY3JvbGxXaGVlbFpvb206YSx6b29tQ29udHJvbDohYX0pO0RHLmdlb0pTT04ocix7c3R5bGU6ZnVuY3Rpb24oZSl7dmFyIHQscixuLGEsbztyZXR1cm57ZmlsbENvbG9yOm51bGw9PT0odD1lKXx8dm9pZCAwPT09dD92b2lkIDA6dC5wcm9wZXJ0aWVzLmZpbGxDb2xvcixmaWxsT3BhY2l0eTpudWxsPT09KHI9ZSl8fHZvaWQgMD09PXI/dm9pZCAwOnIucHJvcGVydGllcy5maWxsT3BhY2l0eSxjb2xvcjpudWxsPT09KG49ZSl8fHZvaWQgMD09PW4/dm9pZCAwOm4ucHJvcGVydGllcy5zdHJva2VDb2xvcix3ZWlnaHQ6bnVsbD09PShhPWUpfHx2b2lkIDA9PT1hP3ZvaWQgMDphLnByb3BlcnRpZXMuc3Ryb2tlV2lkdGgsb3BhY2l0eTpudWxsPT09KG89ZSl8fHZvaWQgMD09PW8/dm9pZCAwOm8ucHJvcGVydGllcy5zdHJva2VPcGFjaXR5fX0scG9pbnRUb0xheWVyOmZ1bmN0aW9uKGUsdCl7cmV0dXJuInJhZGl1cyJpbiBlLnByb3BlcnRpZXM/REcuY2lyY2xlKHQsZS5wcm9wZXJ0aWVzLnJhZGl1cyk6REcubWFya2VyKHQse2ljb246ZnVuY3Rpb24oZSl7cmV0dXJuIERHLmRpdkljb24oe2h0bWw6IjxkaXYgY2xhc3M9J2J1bGxldC1tYXJrZXInIHN0eWxlPSdib3JkZXItY29sb3I6ICIrZSsiOyc+PC9kaXY+IixjbGFzc05hbWU6Im92ZXJyaWRlLWRlZmF1bHQiLGljb25TaXplOlsyMCwyMF0saWNvbkFuY2hvcjpbMTAsMTBdfSl9KGUucHJvcGVydGllcy5jb2xvcil9KX0sb25FYWNoRmVhdHVyZTpmdW5jdGlvbihlLHQpe2UucHJvcGVydGllcy5kZXNjcmlwdGlvbiYmdC5iaW5kUG9wdXAobyhlLnByb3BlcnRpZXMuZGVzY3JpcHRpb24pLHtjbG9zZUJ1dHRvbjohMCxjbG9zZU9uRXNjYXBlS2V5OiEwfSksZS5wcm9wZXJ0aWVzLnRpdGxlJiZ0LmJpbmRUb29sdGlwKG8oZS5wcm9wZXJ0aWVzLnRpdGxlKSx7cGVybWFuZW50OiEwLG9wYWNpdHk6MSxjbGFzc05hbWU6InBlcm1hbmVudC10b29sdGlwIn0pfX0pLmFkZFRvKGUpfSl9KSgneyJvcmRlcmVkR2VvbWV0cmllcyI6W3sidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImNvbG9yIjoiI2YyMDIyMyIsInRpdGxlIjoiIiwiZGVzY3JpcHRpb24iOiIiLCJ6SW5kZXgiOjEwMDAwMDAwMDB9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6WzM3LjU5NDM5Miw1NS43NTAzNF19LCJpZCI6MjU1fV0sIm1hcFBvc2l0aW9uIjp7ImxhdCI6NTUuNzU0Njk5MjAyNjQ5NTUsImxvbiI6MzcuNTg5MzM1NDQxNTg5MzYsInpvb20iOjE0fSwiaXNXaGVlbFpvb21FbmFibGVkIjpmYWxzZX0nKTwvc2NyaXB0PjxzY3JpcHQgYXN5bmM9IiIgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Imh0dHBzOi8vd3d3Lmdvb2dsZXRhZ21hbmFnZXIuY29tL2d0YWcvanM/aWQ9VUEtMTU4ODY2MTY4LTEiPjwvc2NyaXB0PjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4oZnVuY3Rpb24oZSl7ZnVuY3Rpb24gdCgpe2RhdGFMYXllci5wdXNoKGFyZ3VtZW50cyl9d2luZG93LmRhdGFMYXllcj13aW5kb3cuZGF0YUxheWVyfHxbXSx0KCJqcyIsbmV3IERhdGUpLHQoImNvbmZpZyIsZSksd2luZG93Lmd0YWc9dH0pKCdVQS0xNTg4NjYxNjgtMScpPC9zY3JpcHQ+PC9ib2R5Pg=='
+                        )
+                    </script>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__text">
+                &copy; Copyright <b>Mindblister</b> 2019
+            </div>
+        </footer>
+        <a href="#home" class="btn-up">
+            <i class="fa-solid fa-angle-down"></i>
+        </a>
+    </body>
+</html>
